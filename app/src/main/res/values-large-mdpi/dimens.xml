@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pad_1dp">2.0dip</dimen>
+    <dimen name="pad_3dp">6.0dip</dimen>
+    <dimen name="pad_5dp">10.0dip</dimen>
+    <dimen name="pad_10dp">20.0dip</dimen>
+    <dimen name="pad_15dp">30.0dip</dimen>
+    <dimen name="pad_20dp">40.0dip</dimen>
+    <dimen name="pad_30dp">60.0dip</dimen>
+    <dimen name="pad_40dp">80.0dip</dimen>
+    <dimen name="pad_125dp">250.0dip</dimen>
+    <dimen name="pad_200dp">400.0dip</dimen>
+    <dimen name="pad_310dp">620.0dip</dimen>
+    <dimen name="pad_350dp">700.0dip</dimen>
+    <dimen name="txt_7sp">12.0sp</dimen>
+    <dimen name="txt_12sp">18.0sp</dimen>
+    <dimen name="txt_13sp">19.0sp</dimen>
+    <dimen name="txt_14sp">20.0sp</dimen>
+    <dimen name="txt_15sp">22.0sp</dimen>
+    <dimen name="txt_16sp">24.0sp</dimen>
+    <dimen name="txt_18sp">27.0sp</dimen>
+    <dimen name="txt_20sp">30.0sp</dimen>
+    <dimen name="txt_25sp">37.0sp</dimen>
+    <dimen name="divider">1.5dip</dimen>
+</resources>

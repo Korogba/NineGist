@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Ninegist" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_ninegist</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Ninegist</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Ninegist</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Ninegist</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Ninegist</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Ninegist</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_ninegist</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_ninegist</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ninegist</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Ninegist.Widget</item>
+
+
+
+        <item name="android:editTextBackground">@drawable/ninegist_edit_text_holo_dark</item>
+        <item name="android:textColorHighlight">#992a5b52</item>
+        <item name="android:textSelectHandleLeft">@drawable/ninegist_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/ninegist_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/ninegist_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewninegist</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/ninegist_btn_check_holo_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/ninegist_btn_radio_holo_dark</item>
+        <item name="android:buttonStyle">@style/Buttonninegist</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonninegist</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerninegist</item>
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarninegist</item>
+        <item name="android:seekBarStyle">@style/SeekBarninegist</item>
+        <item name="android:ratingBarStyle">@style/RatingBarninegist</item>
+        <item name="android:ratingBarStyleIndicator">@style/RatingBarBigninegist</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallninegist</item>
+        <item name="android:buttonStyleToggle">@style/Toggleninegist</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/ninegist_list_selector_holo_dark</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/ninegist_activated_background_holo_dark</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/ninegist_fastscroll_thumb_holo</item>
+
+    </style>
+
+
+
+    <style name="ActionBar.Solid.Ninegist" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_ninegist</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_ninegist</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_ninegist</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Ninegist</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Ninegist" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_ninegist</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Ninegist</item>
+    </style>
+
+    <style name="PopupMenu.Ninegist" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ninegist</item>
+    </style>
+
+    <style name="DropDownListView.Ninegist" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_ninegist</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Ninegist" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_ninegist</item>
+    </style>
+
+    <style name="DropDownNav.Ninegist" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_ninegist</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ninegist</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_ninegist</item>
+    </style>
+
+    <style name="ProgressBar.Ninegist" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_ninegist</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Ninegist" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_ninegist</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Ninegist.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Ninegist</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Ninegist</item>
+    </style>
+
+
+
+    <!--//////////////////////////////////////////////////////////////////////-->
+
+    <!--<style name="btn" parent="@android:style/Widget.Holo.Light.Button">-->
+        <!--<item name="android:minWidth">1.0dip</item>-->
+        <!--<item name="android:minHeight">1.0dip</item>-->
+    <!--</style>-->
+
+    <!--<style name="txt_white" parent="@android:style/Widget.Holo.Light.EditText">-->
+        <!--<item name="android:textSize">@dimen/txt_16sp</item>-->
+        <!--<item name="android:textColor">@color/gray_dk</item>-->
+        <!--<item name="android:background">@color/white</item>-->
+        <!--<item name="android:padding">@dimen/pad_10dp</item>-->
+        <!--<item name="android:ems">10</item>-->
+        <!--<item name="android:drawablePadding">@dimen/pad_10dp</item>-->
+        <!--<item name="android:inputType">textPersonName</item>-->
+    <!--</style>-->
+
+    <!--<style name="btn_red_white" parent="@style/btn">-->
+        <!--<item name="android:textSize">@dimen/txt_16sp</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:background">@color/main_color_red</item>-->
+        <!--<item name="android:padding">@dimen/pad_10dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="txt_dk_gray" parent="@style/txt_white">-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:textColorHint">@color/gray</item>-->
+        <!--<item name="android:background">@color/gray_dk</item>-->
+    <!--</style>-->
+
+    <!--<style name="edittext_msg" parent="@android:style/Widget.Holo.Light.EditText">-->
+        <!--<item name="android:textSize">@dimen/txt_14sp</item>-->
+        <!--<item name="android:textColor">@color/gray_dk</item>-->
+        <!--<item name="android:textColorHint">@color/gray</item>-->
+        <!--<item name="android:background">@drawable/edittext_bg</item>-->
+        <!--<item name="android:paddingLeft">@dimen/pad_5dp</item>-->
+        <!--<item name="android:paddingRight">@dimen/pad_5dp</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/pad_5dp</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/pad_10dp</item>-->
+        <!--<item name="android:ems">10</item>-->
+        <!--<item name="android:inputType">text</item>-->
+        <!--<item name="android:imeOptions">actionSend</item>-->
+        <!--<item name="android:imeActionId">100</item>-->
+    <!--</style>-->
+
+    <!--<style name="lbl_setting1" parent="@android:style/Widget.Holo.Light.TextView">-->
+        <!--<item name="android:textSize">@dimen/txt_16sp</item>-->
+        <!--<item name="android:textColor">@color/gray_dk</item>-->
+    <!--</style>-->
+
+    <!--<style name="lbl_setting2" parent="@android:style/Widget.Holo.Light.TextView">-->
+        <!--<item name="android:textSize">@dimen/txt_13sp</item>-->
+        <!--<item name="android:textColor">@color/main_color_red</item>-->
+        <!--<item name="android:padding">@dimen/pad_10dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="custom_switch">-->
+        <!--<item name="android:textSize">@dimen/txt_14sp</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:thumb">@drawable/switch_thumb</item>-->
+        <!--<item name="android:track">@drawable/switch_bg</item>-->
+    <!--</style>-->
+
+    <!--<style name="img_profile">-->
+        <!--<item name="android:background">@drawable/pic_frame</item>-->
+        <!--<item name="android:padding">@dimen/pad_5dp</item>-->
+        <!--<item name="android:scaleType">fitXY</item>-->
+    <!--</style>-->
+
+    <!--<style name="lbl_14gray" parent="@android:style/Widget.Holo.Light.TextView">-->
+        <!--<item name="android:textSize">@dimen/txt_14sp</item>-->
+        <!--<item name="android:textColor">@color/gray_dk</item>-->
+    <!--</style>-->
+
+    <!--<style name="lbl_profile" parent="@style/lbl_14gray">-->
+        <!--<item name="android:gravity">center_horizontal</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/pad_5dp</item>-->
+        <!--<item name="android:drawablePadding">@dimen/pad_3dp</item>-->
+    <!--</style>-->
+
+
+    <style name="AutoCompleteTextViewninegist" parent="android:Widget.Holo.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/ninegist_list_selector_holo_dark</item>
+        <item name="android:background">@drawable/ninegist_edit_text_holo_dark</item>
+    </style>
+
+    <style name="Buttonninegist" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/ninegist_btn_default_holo_dark</item>
+    </style>
+
+    <style name="ImageButtonninegist" parent="android:Widget.Holo.ImageButton">
+        <item name="android:background">@drawable/ninegist_btn_default_holo_dark</item>
+    </style>
+
+    <style name="Spinnerninegist" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/ninegist_spinner_background_holo_dark</item>
+        <item name="android:dropDownSelector">@drawable/ninegist_list_selector_holo_dark</item>
+    </style>
+
+    <style name="Tabninegist">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:background">@drawable/ninegist_tab_indicator_holo</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="TabTextninegist">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <!-- v14 <item name="android:textAllCaps">true</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:maxWidth">180dip</item>
+    </style>
+
+    <style name="ProgressBarninegist" parent="android:Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/ninegist_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ninegist_progress_indeterminate_horizontal_holo_dark</item>
+    </style>
+
+    <style name="SeekBarninegist" parent="android:Widget.Holo.SeekBar">
+        <item name="android:progressDrawable">@drawable/ninegist_scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ninegist_scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:thumb">@drawable/ninegist_scrubber_control_selector_holo_dark</item>
+    </style>
+
+    <style name="RatingBarninegist" parent="android:Widget.Holo.RatingBar">
+        <item name="android:progressDrawable">@drawable/ninegist_ratingbar_full_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ninegist_ratingbar_full_holo_dark</item>
+    </style>
+
+    <style name="RatingBarBigninegist" parent="android:Widget.Holo.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/ninegist_ratingbar_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ninegist_ratingbar_holo_dark</item>
+    </style>
+
+    <style name="RatingBarSmallninegist" parent="android:Widget.Holo.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/ninegist_ratingbar_small_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/ninegist_ratingbar_small_holo_dark</item>
+    </style>
+
+    <style name="Toggleninegist" parent="android:Widget.Holo.Button.Toggle">
+        <item name="android:background">@drawable/ninegist_btn_toggle_holo_dark</item>
+    </style>
+
+
+
+    <style name="searchTextHiglight">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

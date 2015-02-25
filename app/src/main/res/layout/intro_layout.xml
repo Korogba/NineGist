@@ -1,0 +1,92 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa">
+
+        <FrameLayout
+            android:layout_gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_image1"
+                android:src="@drawable/intro1"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/icon_image2"/>
+
+        </FrameLayout>
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/intro_view_pager"/>
+
+        <Button
+            android:id="@+id/start_messaging_button"
+            style="@style/btn_red_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Agree &amp; Continue"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottom_pages"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="53dp"
+            android:layout_above="@+id/start_messaging_button"
+            android:layout_centerHorizontal="true">
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="@color/main_color_red"/>
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="@color/main_color_red"
+                android:layout_marginLeft="7dp"/>
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="@color/main_color_red"
+                android:layout_marginLeft="7dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms"
+            android:id="@+id/terms"
+            android:textSize="@dimen/txt_15sp"
+            android:textColor="@color/red_light"
+            android:layout_above="@+id/bottom_pages"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="58dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

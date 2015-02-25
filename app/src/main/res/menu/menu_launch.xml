@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="zumma.com.ninegistapp.ui.LaunchActivity" >
+
+    <item
+        android:id="@+id/menu_done"
+        android:title="@string/action_done"
+        android:icon="@drawable/ic_done"
+        android:showAsAction="always" />
+
+</menu>

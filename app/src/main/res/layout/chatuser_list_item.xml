@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/nameIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user1" />
+
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/nameIcon"
+            android:layout_toLeftOf="@+id/timeLabel"
+            android:layout_toRightOf="@+id/nameIcon"
+            android:layout_toStartOf="@+id/timeLabel"
+            android:padding="2dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nameLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/nameIcon"
+            android:layout_toLeftOf="@+id/timeLabel"
+            android:layout_toRightOf="@+id/nameIcon"
+            android:layout_toStartOf="@+id/timeLabel"
+            android:padding="2dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/timeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/nameLabel"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:text="12/20/1988"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/message_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="info_update"
+            android:textSize="15sp"
+            android:layout_below="@+id/nameLabel"
+            android:layout_toRightOf="@+id/statusIcon"
+            android:layout_toEndOf="@+id/statusIcon" />
+
+        <TextView
+            android:id="@+id/countField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/message_status"
+            android:layout_alignEnd="@+id/timeLabel"
+            android:layout_alignRight="@+id/timeLabel"
+            android:background="@drawable/ic_eclipse_red"
+            android:gravity="center"
+            android:text="33"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_12sp" />
+
+
+        <TextView
+            android:id="@+id/objectId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/statusIcon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_dot1"
+            android:layout_below="@+id/nameLabel"
+            android:layout_alignLeft="@+id/nameLabel"
+            android:layout_alignStart="@+id/nameLabel" />
+
+    </RelativeLayout>
+
+</LinearLayout>

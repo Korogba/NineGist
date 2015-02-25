@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_dk">#ff2c2c2c</color>
+    <color name="gray">#ff656464</color>
+    <color name="gray_divider">#ffe5e5e5</color>
+    <color name="white_smoke">#fff7f7f7</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_color_red">#ff2a5b52</color>
+    <color name="main_color_red_light">#ffe6a9a9</color>
+    <color name="main_color_red_dk">#ff2a5b52</color>
+    <color name="holo_blue">#ff33e5b5</color>
+    <color name="green">#ff4c9785</color>
+    <color name="theme_black">#ff313031</color>
+    <color name="theme_red">#ff2a5b52</color>
+    <color name="theme_green">#ff97e365</color>
+    <color name="theme_blue">#ff41b2ec</color>
+    <color name="red_light">#ff2a5b52</color>
+    <color name="blue_sky">#ff33b5e5</color>
+
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="divider">#dcdcdc</color>
+    <color name="header">#ff9e4037</color>
+
+    <color name="main_color_green">#ff00b863</color>
+    <color name="main_color_gray_dk">#ff3b3b3b</color>
+    <color name="main_color_gray_lt">#ffacacac</color>
+    <color name="main_color_gray">#ff7d7d7d</color>
+    <color name="gray_light">#ffe8e8e8</color>
+</resources>

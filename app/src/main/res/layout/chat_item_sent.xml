@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llaa"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pad_10dp"
+        android:layout_marginRight="@dimen/pad_10dp">
+
+        <ImageView
+            android:id="@id/img"
+            android:layout_width="@dimen/thumb_size"
+            android:layout_height="@dimen/thumb_size"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/user_chat2" />
+
+        <LinearLayout
+            android:id="@+id/v1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/pad_chat_item"
+            android:background="@drawable/chat_bg_send"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/pad_5dp"
+            android:paddingLeft="@dimen/pad_15dp"
+            android:paddingRight="@dimen/pad_chat_item"
+            android:paddingTop="@dimen/pad_5dp">
+
+            <TextView
+                android:id="@+id/lbl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:12"
+                android:textSize="@dimen/txt_13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chat_message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text="message to be sent"
+                android:textSize="@dimen/txt_14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/v1"
+            android:layout_below="@id/v1"
+            android:layout_marginTop="@dimen/pad_5dp"
+            android:text="textvdv"
+            android:textColor="@color/main_color_gray"
+            android:textSize="@dimen/txt_14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

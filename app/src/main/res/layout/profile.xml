@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/s"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/pad_10dp">
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic1" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic2" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic3" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic4" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic1" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic2" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic3" />
+
+                <ImageView
+                    style="@style/img_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_10dp"
+                    android:src="@drawable/pofile_pic4" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/pad_10dp">
+
+            <TextView
+                android:id="@id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_5dp"
+                android:text="Nikita Hrist, 23"
+                android:textColor="@color/main_color_red"
+                android:textSize="@dimen/txt_20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/lbl_14gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/pad_5dp"
+                android:drawableLeft="@drawable/icp_location"
+                android:drawablePadding="@dimen/pad_3dp"
+                android:text="Sydney, Australia" />
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_20dp">
+
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icp_about" />
+
+                <TextView
+                    android:id="@id/lbl"
+                    style="@style/lbl_14gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_5dp"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:text="@string/about"
+                    android:textSize="@dimen/txt_16sp" />
+
+                <TextView
+                    android:id="@id/textView2"
+                    style="@style/lbl_14gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/lbl"
+                    android:layout_below="@id/lbl"
+                    android:layout_marginTop="@dimen/pad_3dp"
+                    android:text="@string/lorem_ipusm" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_20dp">
+
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icp_shared" />
+
+                <TextView
+                    android:id="@id/lbl"
+                    style="@style/lbl_14gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_5dp"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:text="Shared Friends (5)"
+                    android:textSize="@dimen/txt_16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/lbl"
+                    android:layout_below="@id/lbl"
+                    android:layout_marginTop="@dimen/pad_3dp"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_p1"
+                        android:text="Aliah" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_p2"
+                        android:text="Esha" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_p3"
+                        android:text="Angela" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_p4"
+                        android:text="Maria" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_p5"
+                        android:text="Kaya" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/rel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_20dp">
+
+                <ImageView
+                    android:id="@id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icp_interest" />
+
+                <TextView
+                    android:id="@id/lbl"
+                    style="@style/lbl_14gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/pad_5dp"
+                    android:layout_toRightOf="@id/imageView1"
+                    android:text="Shared Interests (3)"
+                    android:textSize="@dimen/txt_16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/lbl"
+                    android:layout_below="@id/lbl"
+                    android:layout_marginTop="@dimen/pad_3dp"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_in1"
+                        android:text="Android" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_in2"
+                        android:text="IMDb" />
+
+                    <TextView
+                        android:id="@id/textView2"
+                        style="@style/lbl_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/img_in3"
+                        android:text="Disney" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

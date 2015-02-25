@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chat.ninegist.ngistapp.ui.activities.ConfirmActivity"
+    android:id="@+id/main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/passCode"
+            android:layout_marginTop="32dp"
+            android:hint="Code"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChangePhoneHelp"
+            android:id="@+id/confirm_note"
+            android:layout_marginTop="84dp"
+            android:layout_below="@+id/passCode"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+    <Button
+        android:id="@+id/cancel"
+        style="@style/btn_red_white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Did not recieve code"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+</RelativeLayout>

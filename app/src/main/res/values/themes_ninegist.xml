@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="ninegist" parent="android:Theme.Holo">
+
+    <item name="android:editTextBackground">@drawable/ninegist_edit_text_holo_dark</item>
+
+    <item name="android:textColorHighlight">#992a5b52</item>
+    <item name="android:textSelectHandleLeft">@drawable/ninegist_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/ninegist_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/ninegist_text_select_handle_middle</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewninegist</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/ninegist_btn_check_holo_dark</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/ninegist_btn_radio_holo_dark</item>
+
+    <item name="android:buttonStyle">@style/Buttonninegist</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonninegist</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerninegist</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarninegist</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarninegist</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarninegist</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigninegist</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallninegist</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggleninegist</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/ninegist_list_selector_holo_dark</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/ninegist_activated_background_holo_dark</item>
+
+    <item name="android:fastScrollThumbDrawable">@drawable/ninegist_fastscroll_thumb_holo</item>
+
+  </style>
+
+</resources>

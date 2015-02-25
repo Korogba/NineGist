@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zumma.com.ninegistapp.ui.LaunchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nigeria"
+            android:id="@+id/countryField"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="left"
+            android:background="@color/transparent"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+234"
+            android:id="@+id/countryCodeField"
+            android:textSize="18sp"
+            android:layout_below="@+id/countryField"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="5dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phoneField"
+            android:layout_alignBottom="@+id/countryCodeField"
+            android:layout_toRightOf="@+id/countryCodeField"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ChangePhoneHelp"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/phoneField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/cancel"
+        style="@style/btn_red_white"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--<com.imate.pager.JazzyViewPager-->
+        <!--android:id="@+id/jazzy_pager"-->
+        <!--android:layout_width="@dimen/pad_310dp"-->
+        <!--android:layout_height="@dimen/pad_350dp"-->
+        <!--android:layout_marginTop="@dimen/pad_10dp"-->
+        <!--android:background="@drawable/pager_bg" />-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUnlikne"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_unline" />
+
+        <Button
+            android:id="@+id/btnInfo"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_info" />
+
+        <Button
+            android:id="@+id/btnLike"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_like" />
+
+    </LinearLayout>
+</LinearLayout>

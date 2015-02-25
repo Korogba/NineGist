@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zumma.com.ninegistapp" >
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Ninegist" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.LaunchActivity" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.activities.IntroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".ui.activities.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:parentActivityName=".ui.activities.IntroActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activities.ConfirmActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".ui.activities.SelectPicture"
+            android:label="@string/label_picture" >
+        </activity>
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" >
+        </activity>
+
+        <provider
+            android:name=".database.DataBaseProvider"
+            android:authorities="zumma.com.ninegistapp.database.databaseprovider"
+            android:exported="false" >
+        </provider>
+
+        <service
+            android:name=".service.FriendsSearchService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".service.DataService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+    </application>
+
+</manifest>
